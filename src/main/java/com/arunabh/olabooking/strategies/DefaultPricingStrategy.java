@@ -1,6 +1,6 @@
-package com.uditagarwal.cabbooking.strategies;
+package com.arunabh.olabooking.strategies;
 
-import com.uditagarwal.cabbooking.model.Location;
+import com.arunabh.olabooking.model.Location;
 
 public class DefaultPricingStrategy implements PricingStrategy {
 

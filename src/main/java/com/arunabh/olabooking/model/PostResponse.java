@@ -1,4 +1,4 @@
-package com.uditagarwal.cabbooking.model;
+package com.arunabh.olabooking.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
@@ -16,6 +16,12 @@ public class PostResponse {
 
   @JsonProperty private String status;
   @JsonProperty private String message;
+
+  public PostResponse(String status, String message) {
+    super();
+    this.status = status;
+    this.message = message;
+  }
 
   public static PostResponse ok() {
     return new PostResponse(OK_RESPONSE, null);

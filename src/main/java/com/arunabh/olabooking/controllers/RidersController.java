@@ -1,15 +1,15 @@
-package com.uditagarwal.cabbooking.controllers;
+package com.arunabh.olabooking.controllers;
 
-import com.uditagarwal.cabbooking.database.RidersManager;
-import com.uditagarwal.cabbooking.database.TripsManager;
-import com.uditagarwal.cabbooking.model.Location;
-import com.uditagarwal.cabbooking.model.Rider;
-import com.uditagarwal.cabbooking.model.Trip;
 import java.util.List;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import com.arunabh.olabooking.database.RidersManager;
+import com.arunabh.olabooking.database.TripsManager;
+import com.arunabh.olabooking.model.Location;
+import com.arunabh.olabooking.model.Rider;
+import com.arunabh.olabooking.model.Trip;
 
 @RestController
 public class RidersController {

@@ -1,9 +1,9 @@
-package com.uditagarwal.cabbooking.strategies;
+package com.arunabh.olabooking.strategies;
 
-import com.uditagarwal.cabbooking.model.Cab;
-import com.uditagarwal.cabbooking.model.Location;
-import com.uditagarwal.cabbooking.model.Rider;
 import java.util.List;
+import com.arunabh.olabooking.model.Cab;
+import com.arunabh.olabooking.model.Location;
+import com.arunabh.olabooking.model.Rider;
 import lombok.NonNull;
 
 public class DefaultCabMatchingStrategy implements CabMatchingStrategy {

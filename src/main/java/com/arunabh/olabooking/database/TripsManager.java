@@ -1,18 +1,18 @@
-package com.uditagarwal.cabbooking.database;
+package com.arunabh.olabooking.database;
 
-import com.uditagarwal.cabbooking.exceptions.NoCabsAvailableException;
-import com.uditagarwal.cabbooking.exceptions.TripNotFoundException;
-import com.uditagarwal.cabbooking.model.Cab;
-import com.uditagarwal.cabbooking.model.Location;
-import com.uditagarwal.cabbooking.model.Rider;
-import com.uditagarwal.cabbooking.model.Trip;
-import com.uditagarwal.cabbooking.strategies.CabMatchingStrategy;
-import com.uditagarwal.cabbooking.strategies.PricingStrategy;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import com.arunabh.olabooking.exceptions.NoCabsAvailableException;
+import com.arunabh.olabooking.exceptions.TripNotFoundException;
+import com.arunabh.olabooking.model.Cab;
+import com.arunabh.olabooking.model.Location;
+import com.arunabh.olabooking.model.Rider;
+import com.arunabh.olabooking.model.Trip;
+import com.arunabh.olabooking.strategies.CabMatchingStrategy;
+import com.arunabh.olabooking.strategies.PricingStrategy;
 import lombok.NonNull;
 
 public class TripsManager {

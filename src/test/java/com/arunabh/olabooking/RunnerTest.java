@@ -1,23 +1,22 @@
-package com.uditagarwal.cabbooking;
+package com.arunabh.olabooking;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
-
-import com.uditagarwal.cabbooking.controllers.CabsController;
-import com.uditagarwal.cabbooking.controllers.RidersController;
-import com.uditagarwal.cabbooking.database.CabsManager;
-import com.uditagarwal.cabbooking.database.RidersManager;
-import com.uditagarwal.cabbooking.database.TripsManager;
-import com.uditagarwal.cabbooking.exceptions.CabAlreadyExistsException;
-import com.uditagarwal.cabbooking.exceptions.CabNotFoundException;
-import com.uditagarwal.cabbooking.exceptions.NoCabsAvailableException;
-import com.uditagarwal.cabbooking.exceptions.RiderAlreadyExistsException;
-import com.uditagarwal.cabbooking.exceptions.RiderNotFoundException;
-import com.uditagarwal.cabbooking.strategies.CabMatchingStrategy;
-import com.uditagarwal.cabbooking.strategies.DefaultPricingStrategy;
-import com.uditagarwal.cabbooking.strategies.PricingStrategy;
-import com.uditagarwal.cabbooking.strategies.DefaultCabMatchingStrategy;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import com.arunabh.olabooking.controllers.CabsController;
+import com.arunabh.olabooking.controllers.RidersController;
+import com.arunabh.olabooking.database.CabsManager;
+import com.arunabh.olabooking.database.RidersManager;
+import com.arunabh.olabooking.database.TripsManager;
+import com.arunabh.olabooking.exceptions.CabAlreadyExistsException;
+import com.arunabh.olabooking.exceptions.CabNotFoundException;
+import com.arunabh.olabooking.exceptions.NoCabsAvailableException;
+import com.arunabh.olabooking.exceptions.RiderAlreadyExistsException;
+import com.arunabh.olabooking.exceptions.RiderNotFoundException;
+import com.arunabh.olabooking.strategies.CabMatchingStrategy;
+import com.arunabh.olabooking.strategies.DefaultCabMatchingStrategy;
+import com.arunabh.olabooking.strategies.DefaultPricingStrategy;
+import com.arunabh.olabooking.strategies.PricingStrategy;
 
 public class RunnerTest {
   CabsController cabsController;

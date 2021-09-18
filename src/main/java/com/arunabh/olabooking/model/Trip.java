@@ -1,8 +1,7 @@
-package com.uditagarwal.cabbooking.model;
+package com.arunabh.olabooking.model;
 
-import static com.uditagarwal.cabbooking.model.TripStatus.FINISHED;
-import static com.uditagarwal.cabbooking.model.TripStatus.IN_PROGRESS;
-
+import static com.arunabh.olabooking.model.TripStatus.FINISHED;
+import static com.arunabh.olabooking.model.TripStatus.IN_PROGRESS;
 import lombok.NonNull;
 import lombok.ToString;
 

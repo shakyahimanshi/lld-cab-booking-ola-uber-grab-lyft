@@ -1,10 +1,10 @@
-package com.uditagarwal.cabbooking.database;
+package com.arunabh.olabooking.database;
 
-import com.uditagarwal.cabbooking.exceptions.RiderAlreadyExistsException;
-import com.uditagarwal.cabbooking.exceptions.RiderNotFoundException;
-import com.uditagarwal.cabbooking.model.Rider;
 import java.util.HashMap;
 import java.util.Map;
+import com.arunabh.olabooking.exceptions.RiderAlreadyExistsException;
+import com.arunabh.olabooking.exceptions.RiderNotFoundException;
+import com.arunabh.olabooking.model.Rider;
 import lombok.NonNull;
 
 /** In memory database for storing jobs. */
